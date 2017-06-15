@@ -1,0 +1,17 @@
+#map {
+ height: 600px;
+ width: 100%;
+}
+#controls {
+ position: absolue;
+ top: 100px;
+ right: 50px;
+ width: 300px;
+ height: 500px;
+ background: white;
+ z-index: 1;
+ position: fixed;
+}
+#controls ul {
+ list-style: none
+}
