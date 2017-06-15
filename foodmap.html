@@ -8,13 +8,16 @@
        }
        #controls {
         position: absolue;
-        top: 0;
-        right: 0;
-        width: 200px;
-        height: 300px;
-        background: green;
+        top: 100px;
+        right: 50px;
+        width: 300px;
+        height: 500px;
+        background: white;
         z-index: 1;
         position: fixed;
+       }
+       #controls ul {
+        list-style: none
        }
     </style>
   </head>
@@ -23,18 +26,7 @@
     <div id='map'></div>
     <div id='controls'>
     </div>
-    <script>
-      function initMap() {
-        var uluru = {lat: 52.511801, lng: 13.455590};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
+    <script type='text/javascript' src='javascript/map.js'>
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
