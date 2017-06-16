@@ -1,4 +1,7 @@
 function initMap() {
+  var json;
+  var foodData;
+
   var filterCategories;
   var globalKeywords = [];
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -17,7 +20,6 @@ function initMap() {
     }
 
     var filterCategories = filterParams ? $.map(filterParams.match(/\S+\s*/g), function(val, index) { return val.trim(); }) : ['all'];
-    var foodData;
     var geocoder = new google.maps.Geocoder();
     var infowindow = new google.maps.InfoWindow();
 
@@ -43,30 +45,26 @@ function initMap() {
         });
       }
     };
+ 
+    for (i=0; i < foodData.restaurants.length; i++) {
+      var keywords = foodData.restaurants[i].keywords.match(/\S+\s*/g);
+      for (k=0; k < keywords.length; k++) {
+        var keyword = keywords[k].trim();
+        if (globalKeywords.indexOf(keyword) == -1) {
+          globalKeywords.push(keyword);
 
-    $.getJSON('db/data.json', function(data) {
-      foodData = data;
-
-      for (i=0; i < data.restaurants.length; i++) {
-        var keywords = foodData.restaurants[i].keywords.match(/\S+\s*/g);
-        for (k=0; k < keywords.length; k++) {
-          var keyword = keywords[k].trim();
-          if (globalKeywords.indexOf(keyword) == -1) {
-            globalKeywords.push(keyword);
-
-            $('#controls ul').append("<li><input class='js-keyword-checkbox' type='checkbox' id='js-asian'>" + keyword + "</li>");
-          }
-          if (filterCategories.indexOf('all') == -1 && filterCategories.indexOf(keyword) > -1) {
+          $('#controls ul').append("<li><input class='js-keyword-checkbox' type='checkbox' id='js-asian'>" + keyword + "</li>");
+        }
+        if (filterCategories.indexOf('all') == -1 && filterCategories.indexOf(keyword) > -1) {
+            addMarker(foodData.restaurants[i], i);
+        } else {
+          if (filterCategories.indexOf('all') > -1) {
+            console.log('add unfiltered');
               addMarker(foodData.restaurants[i], i);
-          } else {
-            if (filterCategories.indexOf('all') > -1) {
-              console.log('add unfiltered');
-                addMarker(foodData.restaurants[i], i);
-            }
           }
         }
       }
-    });
+    }
 
     $('.food-map').on('change', ':checkbox', function(){
       var filterParams = '';
@@ -77,5 +75,8 @@ function initMap() {
     });
   };
 
-  render();
+  $.getJSON('db/data.json', function(data) {
+    foodData = data;
+    render();
+  });
 }
