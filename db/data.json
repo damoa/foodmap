@@ -1,34 +1,137 @@
 {
-    "restaurants": [
-        {
-            "id": "1",
-            "name": "Vollkornbäckerei Hartwich",
-            "category": "Bäcker",
-            "address": "Grünberger Str. 54"
-        },
-        {
-            "id": "2",
-            "name": "Bäckerei Kaspi Azar Yusibov",
-            "category": "Bäcker",
-            "address": "Warschauer Str. 72"
-        },
-        {
-            "id": "3",
-            "name": "Steinecke",
-            "category": "Bäcker",
-            "address": "Simon-Dach-Straße 41A"
-        },
-        {
-            "id": "4",
-            "name": "Vira",
-            "category": "Italiener",
-            "address": "Warschauer Str. 66"
-        },
-        {
-            "id": "5",
-            "name": "Meymann",
-            "category": "Italiener",
-            "address": "Warschauer Str. 80"
-        }
-    ]
+  "restaurants":
+     [ {
+             "id": 1,
+             "name": "MASTER",
+             "category": "insert here",
+             "address": "Grünberger Str. 54",
+             "Stadt": "10243 Berlin"
+         },
+         {
+             "id": 2,
+             "name": "Steinecke",
+             "category": "Bäcker",
+             "address": "Simon-Dach-Str. 41A",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 3,
+             "name": "Vollkornbäckerei Hartwich",
+             "category": "Bäcker",
+             "address": "Warschauer Str. 72",
+             "Stadt": "10243 Berlin"
+         },
+         {
+             "id": 4,
+             "name": "Kreuzburger",
+             "category": "Burger",
+             "address": "Grünberger Str. 52",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 5,
+             "name": "Homemade",
+             "category": "vegan hausgemacht",
+             "address": "Simon-Dach-Straße 10",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 6,
+             "name": "Fatoush",
+             "category": "Falafel Wraps Halloumi Salat",
+             "address": "Simon-Dach-Straße 41A",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 7,
+             "name": "Lemongrass",
+             "category": "Asiatisch",
+             "address": "Simon-Dach-Straße 2",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 8,
+             "name": "Chay Village",
+             "category": "Asiatisch vegetarisch",
+             "address": "Niederbarnimstraße 10",
+             "Stadt": "10249 Berlin"
+         },
+         {
+             "id": 9,
+             "name": "Lemon Leaf",
+             "category": "Asiatisch",
+             "address": "Grünberger Str. 69",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 10,
+             "name": "Patta - Finest Baked Potatoes",
+             "category": "Kartoffel",
+             "address": "Krossener Str. 16",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 11,
+             "name": "Ali Baba",
+             "category": "Falafel Schawarma Halloumi",
+             "address": "Krossener Str. 17",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 12,
+             "name": "Burgeramt",
+             "category": "Burger",
+             "address": "Krossener Str. 21-22",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 13,
+             "name": "Datscha",
+             "category": "russisch Kaffee",
+             "address": "Gabriel-Max-Straße 1",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 14,
+             "name": "Il Ritrovo",
+             "category": "Pizza Pasta",
+             "address": "Gabriel-Max-Straße 2",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 15,
+             "name": "Vira",
+             "category": "Pizza Pasta",
+             "address": "Warschauer Str. 66",
+             "Stadt": "10243 Berlin"
+         },
+         {
+             "id": 16,
+             "name": "La Tazza D’Oro",
+             "category": "Kaffee",
+             "address": "Grünberger Str. 40",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 17,
+             "name": "Mokofuk",
+             "category": "Kaffee",
+             "address": "Grünberger Str. 75",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 18,
+             "name": "Intimes",
+             "category": "mediterran",
+             "address": "Boxhagener Str. 107",
+             "Stadt": "10245 Berlin"
+         },
+         {
+             "id": 19,
+             "name": "Milch & Zucker",
+             "category": "hausgemacht",
+             "address": "Warschauer Str. 70",
+             "Stadt": "10243 Berlin"
+         }
+     ]
 }
