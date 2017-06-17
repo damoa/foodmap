@@ -1,137 +1,248 @@
 {
-  "restaurants":
-     [ {
-             "id": 1,
-             "name": "MASTER",
-             "keywords": "insert here",
-             "address": "Grünberger Str. 54",
-             "Stadt": "10243 Berlin"
-         },
-         {
-             "id": 2,
-             "name": "Steinecke",
-             "keywords": "Bäcker",
-             "address": "Simon-Dach-Str. 41A",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 3,
-             "name": "Vollkornbäckerei Hartwich",
-             "keywords": "Bäcker",
-             "address": "Warschauer Str. 72",
-             "Stadt": "10243 Berlin"
-         },
-         {
-             "id": 4,
-             "name": "Kreuzburger",
-             "keywords": "Burger",
-             "address": "Grünberger Str. 52",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 5,
-             "name": "Homemade",
-             "keywords": "vegan hausgemacht",
-             "address": "Simon-Dach-Straße 10",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 6,
-             "name": "Fatoush",
-             "keywords": "Falafel Wraps Halloumi Salat",
-             "address": "Simon-Dach-Straße 41A",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 7,
-             "name": "Lemongrass",
-             "keywords": "Asiatisch",
-             "address": "Simon-Dach-Straße 2",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 8,
-             "name": "Chay Village",
-             "keywords": "Asiatisch vegetarisch",
-             "address": "Niederbarnimstraße 10",
-             "Stadt": "10249 Berlin"
-         },
-         {
-             "id": 9,
-             "name": "Lemon Leaf",
-             "keywords": "Asiatisch",
-             "address": "Grünberger Str. 69",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 10,
-             "name": "Patta - Finest Baked Potatoes",
-             "keywords": "Kartoffel",
-             "address": "Krossener Str. 16",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 11,
-             "name": "Ali Baba",
-             "keywords": "Falafel Schawarma Halloumi",
-             "address": "Krossener Str. 17",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 12,
-             "name": "Burgeramt",
-             "keywords": "Burger",
-             "address": "Krossener Str. 21-22",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 13,
-             "name": "Datscha",
-             "keywords": "russisch Kaffee",
-             "address": "Gabriel-Max-Straße 1",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 14,
-             "name": "Il Ritrovo",
-             "keywords": "Pizza Pasta",
-             "address": "Gabriel-Max-Straße 2",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 15,
-             "name": "Vira",
-             "keywords": "Pizza Pasta",
-             "address": "Warschauer Str. 66",
-             "Stadt": "10243 Berlin"
-         },
-         {
-             "id": 16,
-             "name": "La Tazza D’Oro",
-             "keywords": "Kaffee",
-             "address": "Grünberger Str. 40",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 17,
-             "name": "Mokofuk",
-             "keywords": "Kaffee",
-             "address": "Grünberger Str. 75",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 18,
-             "name": "Intimes",
-             "keywords": "mediterran",
-             "address": "Boxhagener Str. 107",
-             "Stadt": "10245 Berlin"
-         },
-         {
-             "id": 19,
-             "name": "Milch & Zucker",
-             "keywords": "hausgemacht",
-             "address": "Warschauer Str. 70",
-             "Stadt": "10243 Berlin"
-         }
-     ]
+    "restaurants":
+    [
+        {
+            "id": 1,
+            "name": "sofatutor",
+            "address": "54: Grünberger Str.: Berlin: 10243",
+            "keywords": "Müsli, Obst, Getränke, alles for free!",
+            "Was ist besonders gut?": "Alles,-)",
+            "Persönlicher Kommentar": "",
+            "Homepage": "www.sofatutor.com"
+        },
+        {
+            "id": 2,
+            "name": "Steinecke",
+            "address": "41A, Simon-Dach-Str., Berlin, 10245",
+            "keywords": "Bäcker",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": "https://www.steinecke.info/index.php"
+        },
+        {
+            "id": 3,
+            "name": "Vollkornbäckerei Hartwich",
+            "address": "72, Warschauer Str., Berlin, 10243",
+            "keywords": "Bäcker",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 4,
+            "name": "Bäckerei Morgenbrot",
+            "address": "117, Boxhagener Str., Berlin, 10245",
+            "keywords": "Bäcker",
+            "Was ist besonders gut?": "günstig und sympatisch",
+            "Persönlicher Kommentar": "Arno: Der beste Bäcker! Ciabatta für 2: per Hand vor Ort nach persönlichen Wünschen zubereitet. Sehr sympatische Besitzer! Günstiger guter Kaffee.",
+            "Homepage": ""
+        },
+        {
+            "id": 5,
+            "name": "Kreuzburger",
+            "address": "52, Grünberger Str., Berlin, 10245",
+            "keywords": "Burger",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "Marie: Süßkartoffelpommes und Burger mit Guacamole",
+            "Homepage": "http://kreuzburger.de/"
+        },
+        {
+            "id": 6,
+            "name": "Burgeramt",
+            "address": "21-22, Krossener Str., Berlin, 10245",
+            "keywords": "Burger",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": "http://www.burgeramt.com/"
+        },
+        {
+            "id": 7,
+            "name": "Homemade",
+            "address": "10, Simon-Dach-Str., Berlin, 10245",
+            "keywords": "vegan hausgemacht Suppe",
+            "Was ist besonders gut?": "Mittagsmenü Suppe + Salat + Getränk",
+            "Persönlicher Kommentar": "Marie: superleckere vegane Suppen!",
+            "Homepage": "http://www.homemade-berlin.de/"
+        },
+        {
+            "id": 8,
+            "name": "Fatoush",
+            "address": "41A, Simon-Dach-Str., Berlin, 10245",
+            "keywords": "Falafel Wraps Halloumi vegan vegetarisch",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": "http://www.fatoush.de/"
+        },
+        {
+            "id": 9,
+            "name": "Milch & Zucker\n",
+            "address": "70, Warschauer Str., Berlin, 10243",
+            "keywords": "vegan hausgemacht vegetarisch",
+            "Was ist besonders gut?": "Wochenkarte",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 10,
+            "name": "Lemongrass",
+            "address": "2, Simon-Dach-Str., Berlin, 10245",
+            "keywords": "Asiatisch",
+            "Was ist besonders gut?": "Pad Thai",
+            "Persönlicher Kommentar": "",
+            "Homepage": "https://www.lemongrass-berlin.de/"
+        },
+        {
+            "id": 11,
+            "name": "Chay Village",
+            "address": "10, Niederbarnimstr., Berlin, 10249",
+            "keywords": "Asiatisch vegetarisch",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": "https://www.chayvillage.de/"
+        },
+        {
+            "id": 12,
+            "name": "Lemon Leaf",
+            "address": "69, Grünberger Str., Berlin, 10245",
+            "keywords": "Asiatisch vegan Sonne",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "Marie: S7 Lachs probieren!",
+            "Homepage": "http://lemonleaf.de/"
+        },
+        {
+            "id": 13,
+            "name": "Patta - Finest Baked Potatoes",
+            "address": "16, Krossener Str., Berlin, 10245",
+            "keywords": "Kartoffel Kumpir",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 14,
+            "name": "Ali Baba",
+            "address": "17, Krossener Str., Berlin, 10245",
+            "keywords": "Falafel Schawarma",
+            "Was ist besonders gut?": "gemischte Platten",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 15,
+            "name": "Sanabel",
+            "address": "16, Gabriel-Max-Str., Berlin, 10245",
+            "keywords": "Falafel Halloumi vegan Schawarma",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 16,
+            "name": "Nil",
+            "address": "52, Grünberger Str., Berlin, 10245",
+            "keywords": "Falafel Halloumi Wraps",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": "http://nil-food.de/"
+        },
+        {
+            "id": 17,
+            "name": "Datscha",
+            "address": "1, Gabriel-Max-Str., Berlin, 10245",
+            "keywords": "russisch",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": "http://datscha.de/"
+        },
+        {
+            "id": 18,
+            "name": "Il Ritrovo",
+            "address": "2, Gabriel-Max-Str., Berlin, 10245",
+            "keywords": "Pizza Pasta",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "Marie: lecker: aber lieber mehr Zeit einplanen",
+            "Homepage": ""
+        },
+        {
+            "id": 19,
+            "name": "Vira",
+            "address": "66, Warschauer Str., Berlin, 10243",
+            "keywords": "Pizza Pasta",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "Ulf: Einer wird immer vergessen: aber dann einfach schnell sein und sich ein anderes Essen schnappen,).",
+            "Homepage": ""
+        },
+        {
+            "id": 20,
+            "name": "La Tazza DOro",
+            "address": "40, Grünberger Str., Berlin, 10245",
+            "keywords": "Kaffee",
+            "Was ist besonders gut?": "kleiner ruhiger Hof mit Sonne",
+            "Persönlicher Kommentar": "",
+            "Homepage": "http://tazzadoro.de/"
+        },
+        {
+            "id": 21,
+            "name": "Mokofuk",
+            "address": "75, Grünberger Str., Berlin, 10245",
+            "keywords": "Kaffee",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 22,
+            "name": "Plusminusnull",
+            "address": "61, Grünberger Str., Berlin, 10245",
+            "keywords": "Burger hausgemacht Mediterran Deutsch",
+            "Was ist besonders gut?": "Omelette",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 23,
+            "name": "Intimes",
+            "address": "107, Boxhagener Str., Berlin, 10245",
+            "keywords": "Mediterran Deutsch",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 24,
+            "name": "Hot Dog Soup",
+            "address": "69, Grünberger Str., Berlin, 10245",
+            "keywords": "Suppe HotDog",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": "hot-dog-soup.de"
+        },
+        {
+            "id": 25,
+            "name": "Balaram",
+            "address": "17, Gabriel-Max-Str., Berlin, 10245",
+            "keywords": "Eis vegan",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": ""
+        },
+        {
+            "id": 26,
+            "name": "EisPiraten",
+            "address": "85, Grünberger Str., Berlin, 10245",
+            "keywords": "Eis",
+            "Was ist besonders gut?": "",
+            "Persönlicher Kommentar": "",
+            "Homepage": "http://www.eispiraten-berlin.de/"
+        },
+        {
+            "id": 27,
+            "name": "Euphoria",
+            "address": "60, Grünberger Str., Berlin, 10245",
+            "keywords": "Sonne draußen Burger Pasta Pizza",
+            "Was ist besonders gut?": "Mittagsangebot",
+            "Persönlicher Kommentar": "",
+            "Homepage": "http://www.euphoria-bar.de/"
+        }
+    ]
 }
